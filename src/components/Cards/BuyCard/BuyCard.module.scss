@@ -1,0 +1,9 @@
+@import 'src/styles/variables.scss';
+
+.card {
+  width: 238px;
+  min-height: 100%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}

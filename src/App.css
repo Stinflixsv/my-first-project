@@ -1,0 +1,37 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.wrapper::before {
+    content: '';
+    width: 112px;
+    height: 177px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #EFF8ED;
+    border-radius: 0 0 50px 0;
+    z-index: -1;
+}
+
+.wrapper::after {
+    content: '';
+    width: 40%;
+    height: 680px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #EFF8ED;
+    border-radius: 0 0 0 80px;
+    z-index: -1;
+}
+
+.main {
+    flex: 1 1 auto;
+}

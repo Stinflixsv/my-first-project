@@ -1,0 +1,22 @@
+.infoBlock {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+@media (max-width: 768px) {
+  .infoBlock {
+    margin: 0 auto;
+    width: 70%;
+    align-items: center;
+
+    span, h2, p {
+      text-align: center !important;
+    }
+
+    h2 {
+      font-size: 32px !important;
+    }
+  }
+}

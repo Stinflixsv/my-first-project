@@ -1,0 +1,86 @@
+@import "src/styles/variables.scss";
+
+.card {
+  width: 323px;
+  min-height: 100%;
+  padding: 50px 40px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  filter: drop-shadow(0px 13px 19px rgba(0, 0, 0, 0.07));
+}
+
+.header {
+  width: 205px;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+
+  .iconCard {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $primary-color;
+
+    svg {
+      fill: #fff;
+    }
+  }
+}
+
+.priceInMonth {
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: 0.2px;
+  color: $primary-color;
+
+  &::after {
+    content: 'Per Month';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #8EC2F2;
+  }
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.benefits {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+  .benefit {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    span {
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 24px;
+      letter-spacing: 0.2px;
+      color: #252B42;
+    }
+
+    .disabled {
+      fill: #BDBDBD;
+    }
+
+    svg {
+      fill: $primary-color;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+@import 'src/styles/variables.scss';
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    background-color: $primary-color;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.button.transparent {
+    background-color: transparent;
+    border: solid 1px $primary-color;
+    color: $primary-color;
+}
+
+@media (max-width: 375px) {
+    .button {
+        font-size: 12px;
+    }
+}

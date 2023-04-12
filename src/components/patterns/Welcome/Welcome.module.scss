@@ -1,0 +1,42 @@
+.welcome {
+  width: 100%;
+  padding: 112px 0;
+}
+
+.content {
+  max-width: 686px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 40px 77px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 950px) {
+  .welcome {
+    padding: 50px 0;
+  }
+}
+
+@media (max-width: 625px) {
+  .content h2 {
+    font-size: 38px !important;
+    line-height: 50px !important;
+  }
+}
+
+@media (max-width: 425px) {
+  .content {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}

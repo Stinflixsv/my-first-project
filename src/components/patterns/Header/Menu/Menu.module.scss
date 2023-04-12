@@ -1,0 +1,72 @@
+@import "src/styles/variables.scss";
+
+.menu {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  transition: all .8s;
+  transform: translateX(-100%);
+  z-index: 20;
+}
+
+.menu.active {
+  transform: translateX(0);
+}
+
+.blur {
+  width: 100vw;
+  height: 100vh;
+  backdrop-filter: blur(2px);
+  position: absolute;
+  z-index: -1;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 50px;
+  width: 50%;
+  height: 100%;
+  background-color: $second-text-color;
+
+  h2 {
+    color: #fff;
+  }
+
+  .menu__list {
+    flex: 1 1 auto;
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 21px;
+
+    li a {
+      color: $primary-color;
+      font-size: 18px;
+    }
+  }
+
+  .login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+
+    .login__link {
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 22px;
+      letter-spacing: 0.2px;
+      color: $primary-color;
+    }
+  }
+}
+
+@media (max-width: 689px) {
+  .content {
+    width: 100%;
+  }
+}

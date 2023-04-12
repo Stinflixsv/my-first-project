@@ -1,0 +1,23 @@
+@import 'src/styles/variables.scss';
+
+.button {
+    padding: 14px 20px;
+    border: 1px solid $primary-color;
+    border-radius: 37px;
+    background-color: transparent;
+    color: $primary-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    cursor: pointer;
+}
+
+.button img {
+    width: 9px;
+    height: 16px;
+    margin-top: 2px;
+}

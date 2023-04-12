@@ -1,0 +1,40 @@
+.contact {
+  width: 290px;
+}
+
+.column__list {
+  margin-top: 20px;
+
+  li:not(:last-child) {
+    margin-bottom: 10px;
+  }
+
+  li a {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #737373;
+  }
+}
+
+.contact__list {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  .contact__item {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+    a {
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 24px;
+      letter-spacing: 0.2px;
+      color: #737373;
+    }
+  }
+}

@@ -1,0 +1,66 @@
+@import 'src/styles/variables.scss';
+
+.card {
+  width: 240px;
+  height: 288px;
+  background-color: #fff;
+  box-shadow: 0 13px 19px rgba(0, 0, 0, 0.07);
+  padding: 35px 40px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  transition: ease .5s;
+}
+
+.icon {
+  position: relative;
+}
+
+.icon svg {
+  position: relative;
+  z-index: 5;
+  fill: #000;
+  transition: ease .3s;
+}
+
+.icon::before {
+  width: 72px;
+  height: 58px;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #B3E3FF;
+  border-radius: 31% 69% 63% 37% / 40% 0 100% 60%;
+  transition: ease .3s;
+}
+
+.line {
+  width: 50px;
+  height: 2px;
+  background-color: #E74040;
+  transition: ease .3s;
+}
+
+.cardHover {
+  background-color: $primary-color;
+  box-shadow: none;
+
+  .icon svg {
+    fill: #fff;
+  }
+
+  .icon::before {
+    background-color: #E77C40;
+  }
+
+  .line {
+    background-color: #fff;
+  }
+
+  h2, p {
+    transition: ease .3s;
+    color: #fff;
+  }
+}
+

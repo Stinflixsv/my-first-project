@@ -1,0 +1,76 @@
+@import "src/styles/variables.scss";
+
+.courses {
+  padding: 160px 0;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.illustration {
+  max-width: 462px;
+  img {
+    width: 100%;
+  }
+}
+
+.description {
+  max-width: 380px;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+
+  .line {
+    display: block;
+    width: 94px;
+    height: 7px;
+    background-color: $danger-color;
+  }
+
+  .btnLink {
+    display: flex;
+    align-items: center;
+
+    a {
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 24px;
+      letter-spacing: 0.2px;
+      color: $primary-color;
+      margin-right: 10px;
+    }
+  }
+
+}
+
+@media (max-width: 950px) {
+  .courses {
+    padding: 50px 0;
+  }
+}
+
+@media (max-width: 930px) {
+  .content {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  .description {
+    align-items: center;
+    span, h2, p {
+      text-align: center !important;
+    }
+  }
+}
+
+@media (max-width: 425px) {
+  .description h2 {
+      font-size: 26px !important;
+      line-height: 34px !important;
+    }
+}

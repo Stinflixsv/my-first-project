@@ -1,0 +1,43 @@
+.card {
+    max-width: 508px;
+    padding: 25px 25px 0;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.avatar {
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    background-color: #2D4059;
+    overflow: hidden;
+}
+
+.description {
+    padding: 30px 69px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.stars {
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+
+    svg {
+        fill: #F3CD03;
+    }
+}
+
+.avatarName {
+}
+
+@media (max-width: 425px) {
+    .description {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

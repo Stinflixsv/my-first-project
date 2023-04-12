@@ -1,0 +1,32 @@
+.packages {
+  padding: 112px 0;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  gap: 112px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: space-between;
+}
+
+@media (max-width: 950px) {
+  .packages {
+    padding: 50px 0;
+  }
+  .row {
+    gap: 50px;
+  }
+}
+
+
+@media (max-width: 535px) {
+  .cards {
+    justify-content: center;
+  }
+}

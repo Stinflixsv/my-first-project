@@ -1,0 +1,57 @@
+@import 'src/styles/variables.scss';
+
+.header {
+  width: 238px;
+  height: 300px;
+  position: relative;
+
+  &::before {
+    content: 'Sale';
+    padding: 0 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    background-color: $danger-color;
+
+    position: absolute;
+    left: 20px;
+    top: 20px;
+
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+
+.badges {
+  position: absolute;
+  width: 100%;
+  left: calc(50% - 140px/2);
+  bottom: 24px;
+  display: flex;
+  column-gap: 10px;
+
+  .badgeRounded {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    transition: ease .3s;
+
+    svg {
+      transition: ease .3s;
+    }
+
+    &:hover {
+      background-color: $primary-color;
+      svg {
+        fill: #fff;
+      }
+    }
+  }
+}

@@ -1,0 +1,123 @@
+@import "src/styles/variables.scss";
+
+.header {
+  max-width: 100%;
+  height: 91px;
+}
+
+.row {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.menu {
+  width: 100%;
+  margin-left: 87px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 84px;
+
+  .menu__list {
+    display: flex;
+    align-items: center;
+    gap: 21px;
+  }
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+
+  .login__link {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    color: $primary-color;
+  }
+}
+
+.burger {
+  display: none;
+  position: relative;
+  z-index: 200;
+}
+
+.burgerButton {
+  width: 30px;
+  height: 17px;
+  position: relative;
+
+  span {
+    width: 100%;
+    height: 2px;
+    background-color: $primary-color;
+    position: absolute;
+    top: 45%;
+    transition: all .8s;
+  }
+
+  &::after {
+    width: 100%;
+    height: 2px;
+    content: '';
+    position: absolute;
+    top: 0;
+    background-color: $primary-color;
+    transition: all .8s;
+  }
+
+  &::before {
+    width: 100%;
+    height: 2px;
+    content: '';
+    position: absolute;
+    bottom: 0;
+    background-color: $primary-color;
+    transition: all .8s;
+  }
+}
+
+.burgerButton.active {
+  span {
+    transform: translateX(200%);
+  }
+  &::after {
+    top: 50%;
+    transform: translateY(-50%) rotate(-45deg);
+  }
+  &::before {
+    top: 50%;
+    transform: translateY(-50%) rotate(45deg);
+  }
+}
+
+
+@media (max-width: 950px) {
+  .burger {
+    display: block;
+    margin-right: 50px;
+  }
+
+  .row {
+    position: fixed;
+    top: 0;
+    height: 80px;
+    justify-content: flex-end;
+    z-index: 100;
+  }
+
+  .row h2, .menu {
+    display: none;
+  }
+}
+
+
+@media (max-width: 689px) {
+
+}

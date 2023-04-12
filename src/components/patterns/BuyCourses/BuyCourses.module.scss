@@ -1,0 +1,29 @@
+.courses {
+  padding: 112px 0;
+  background-color: #EFF8ED;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  gap: 112px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+@media (max-width: 950px) {
+  .courses {
+    padding: 50px 0;
+  }
+}
+
+@media (max-width: 783px) {
+  .cards {
+    justify-content: center;
+  }
+}
