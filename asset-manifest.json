@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-first-project/static/css/main.6117b02e.css",
-    "main.js": "/my-first-project/static/js/main.c2f275a9.js",
+    "main.css": "/my-first-project/static/css/main.b8992ac6.css",
+    "main.js": "/my-first-project/static/js/main.8c4d2903.js",
     "static/media/popular-courses-background.png": "/my-first-project/static/media/popular-courses-background.3f077d7ea815b4c507e0.png",
     "static/media/product-cover-3.png": "/my-first-project/static/media/product-cover-3.35de9758baeb7b37373e.png",
     "static/media/product-cover-2.png": "/my-first-project/static/media/product-cover-2.4680b1fc46d0a15a8f82.png",
@@ -12,7 +12,7 @@
     "static/media/book.svg": "/my-first-project/static/media/book.03f7226b9a91838d369d31c3c721757a.svg",
     "static/media/education.svg": "/my-first-project/static/media/education.d5f06a921aef405a77108ff5f0032dcd.svg",
     "static/media/company-aws.svg": "/my-first-project/static/media/company-aws.4f39651409fec76c8da09ef55bd0b7ca.svg",
-    "static/media/instagram.svg": "/my-first-project/static/media/instagram.a6441a2ff7d00edd6d1dc5c1d0af82fd.svg",
+    "static/media/instagram.svg": "/my-first-project/static/media/instagram.f7cffdd4f02541ed09e5a398c4346a44.svg",
     "static/media/localMap.svg": "/my-first-project/static/media/localMap.8aa14e1f96631ac2a883b32ffeabd1f7.svg",
     "static/media/company-hooli.svg": "/my-first-project/static/media/company-hooli.66806db812a22d898609869d05c3c397.svg",
     "static/media/school.svg": "/my-first-project/static/media/school.0e76d9d56e5159d676d51ab0501b33f9.svg",
@@ -20,19 +20,19 @@
     "static/media/knowledge.svg": "/my-first-project/static/media/knowledge.c932e96dac53c664643e1e404ae72884.svg",
     "static/media/company-reddit.svg": "/my-first-project/static/media/company-reddit.c07058b968b0f79f4888813526e98609.svg",
     "static/media/mobile.svg": "/my-first-project/static/media/mobile.ee7d86f153cd4aeb431c6ba73329d1f5.svg",
-    "static/media/twitter.svg": "/my-first-project/static/media/twitter.d9c9a8dfa5245598822c6c5299bff99a.svg",
     "static/media/company-lyft.svg": "/my-first-project/static/media/company-lyft.6a4bba99ea05f2785356ae459952ce74.svg",
+    "static/media/twitter.svg": "/my-first-project/static/media/twitter.fc46afb82aaaaadfd283a2439ad1dacb.svg",
     "static/media/company-leafe.svg": "/my-first-project/static/media/company-leafe.437a29f15d70eaa51c5c1baddd5d17bb.svg",
     "static/media/btn-arrow-right.svg": "/my-first-project/static/media/btn-arrow-right.5837089957c7aeb5dbf2a63bf0843261.svg",
     "static/media/mail.svg": "/my-first-project/static/media/mail.e6b4fdb94d72d79f50a977dd05d67f37.svg",
-    "static/media/facebook.svg": "/my-first-project/static/media/facebook.6d8a3203654e3e66fcf61d5b924833ee.svg",
+    "static/media/facebook.svg": "/my-first-project/static/media/facebook.07e18d18318fcad23124e5efbe3dee94.svg",
     "index.html": "/my-first-project/index.html",
-    "static/media/btnLink-arrow-right.svg": "/my-first-project/static/media/btnLink-arrow-right.9ac95943cb8c3a356e930d5397cb3825.svg",
-    "main.6117b02e.css.map": "/my-first-project/static/css/main.6117b02e.css.map",
-    "main.c2f275a9.js.map": "/my-first-project/static/js/main.c2f275a9.js.map"
+    "static/media/btnLink-arrow-right.svg": "/my-first-project/static/media/btnLink-arrow-right.4f13f220011744257c27344571e9c672.svg",
+    "main.b8992ac6.css.map": "/my-first-project/static/css/main.b8992ac6.css.map",
+    "main.8c4d2903.js.map": "/my-first-project/static/js/main.8c4d2903.js.map"
   },
   "entrypoints": [
-    "static/css/main.6117b02e.css",
-    "static/js/main.c2f275a9.js"
+    "static/css/main.b8992ac6.css",
+    "static/js/main.8c4d2903.js"
   ]
 }
