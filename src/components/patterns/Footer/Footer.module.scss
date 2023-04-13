@@ -1,3 +1,5 @@
+@import "src/styles/variables.scss";
+
 .footer {
 
 }
@@ -29,6 +31,14 @@
   display: flex;
   align-items: center;
   gap: 20px;
+
+  svg {
+    fill: $primary-color;
+
+    &:hover {
+      fill: #8ab06f;
+    }
+  }
 }
 
 @media (max-width: 1024px) {

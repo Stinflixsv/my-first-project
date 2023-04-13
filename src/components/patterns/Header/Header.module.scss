@@ -39,6 +39,11 @@
     line-height: 22px;
     letter-spacing: 0.2px;
     color: $primary-color;
+    transition: all .2s;
+
+    &:hover {
+      color: #a6cb8c;
+    }
   }
 }
 
@@ -115,9 +120,4 @@
   .row h2, .menu {
     display: none;
   }
-}
-
-
-@media (max-width: 689px) {
-
 }

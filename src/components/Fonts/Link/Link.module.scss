@@ -6,4 +6,11 @@
   line-height: 24px;
   letter-spacing: 0.2px;
   color: $second-text-color;
+  transition: all 0.3s;
+
+  &:hover {
+    color: #8c8c8c;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
 }

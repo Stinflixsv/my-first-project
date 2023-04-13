@@ -47,6 +47,11 @@
     text-align: center;
     letter-spacing: 0.2px;
     color: #FFFFFF;
+    transition: all .2s;
+
+    &:hover {
+      background-color: #8ab06f;
+    }
   }
 }
 

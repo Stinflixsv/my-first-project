@@ -10,16 +10,16 @@ export const NavigationColumnContact = () => {
           <Title size={16} lineH={24}>Get In Touch</Title>
           <div className={styled.contact__list}>
               <div className={styled.contact__item}>
-                  <MobileIcon />
-                  <a href="#">(480) 555-0103</a>
+                  <div className={styled.icon}><MobileIcon /></div>
+                  <span>(480) 555-0103</span>
               </div>
               <div className={styled.contact__item}>
-                  <LocalMapIcon />
-                  <a href="#">4517 Washington Ave. Manchester, Kentucky 39495</a>
+                  <div className={styled.icon}><LocalMapIcon /></div>
+                  <span>4517 Washington Ave. Manchester, Kentucky 39495</span>
               </div>
               <div className={styled.contact__item}>
-                  <MailIcon />
-                  <a href="#">debra.holt@example.com</a>
+                  <div className={styled.icon}><MailIcon /></div>
+                  <span>debra.holt@example.com</span>
               </div>
           </div>
       </div>

@@ -32,8 +32,31 @@
   }
 
   .btnLink {
+    align-self: flex-start;
     display: flex;
     align-items: center;
+    padding: 10px 20px 10px 0;
+    border-radius: 5px;
+    border: solid 1px transparent;
+
+    &:hover {
+      border-color: $primary-color;
+      background-color: $primary-color;
+
+      a {
+        transform: translateX(10px);
+        color: #fff;
+      }
+      svg {
+        transform: translateX(10px);
+        fill: #fff;
+      }
+    }
+
+    svg {
+      transition: all .3s;
+      fill: $primary-color;
+    }
 
     a {
       font-weight: 700;
@@ -42,6 +65,7 @@
       letter-spacing: 0.2px;
       color: $primary-color;
       margin-right: 10px;
+      transition: all .3s;
     }
   }
 

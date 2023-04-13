@@ -12,12 +12,24 @@
     color: #fff;
     font-weight: 700;
     font-size: 14px;
+    transition: all .3s;
+
+    &:hover {
+        background-color: #8ab06f;
+    }
+
 }
 
 .button.transparent {
     background-color: transparent;
     border: solid 1px $primary-color;
     color: $primary-color;
+    transition: all .3s;
+
+    &:hover {
+        background-color: $primary-color;
+        color: #fff;
+    }
 }
 
 @media (max-width: 375px) {

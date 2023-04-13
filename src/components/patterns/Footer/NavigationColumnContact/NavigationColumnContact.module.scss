@@ -5,11 +5,7 @@
 .column__list {
   margin-top: 20px;
 
-  li:not(:last-child) {
-    margin-bottom: 10px;
-  }
-
-  li a {
+  span {
     font-weight: 700;
     font-size: 14px;
     line-height: 24px;
@@ -26,10 +22,14 @@
 
   .contact__item {
     display: flex;
-    gap: 10px;
+    gap: 17px;
     align-items: center;
 
-    a {
+    .icon {
+      width: 20px;
+    }
+
+    span {
       font-weight: 700;
       font-size: 14px;
       line-height: 24px;
