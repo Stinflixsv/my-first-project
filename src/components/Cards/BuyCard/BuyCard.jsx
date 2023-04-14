@@ -1,15 +1,17 @@
 import styled from './BuyCard.module.scss'
 import HeaderBuyCard from "./HeaderBuyCard/HeaderBuyCard";
 import BodyBuyCard from "./BodyBuyCard/BodyBuyCard";
+import {forwardRef} from "react";
+import {motion} from "framer-motion";
 
 
-const BuyCard = ({data}) => {
+export const BuyCard = forwardRef(({data}, ref) => {
   return(
-      <div className={styled.card}>
+      <motion.div className={styled.card} ref={ref}>
           <HeaderBuyCard image={data.image} />
           <BodyBuyCard data={data.bodyData} />
-      </div>
+      </motion.div>
   )
-}
+})
 
-export default BuyCard;
+export const MBuyCard = motion(BuyCard);

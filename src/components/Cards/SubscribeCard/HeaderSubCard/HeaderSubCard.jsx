@@ -1,7 +1,7 @@
 import styled from "../SubscribeCard.module.scss";
 import {AiFillHeart} from "react-icons/ai";
 import {Title} from "../../../Fonts/Title/Title";
-import Text from "../../../Fonts/Text/Text";
+import {Text} from "../../../Fonts/Text/Text";
 
 const HeaderSubCard = ({subscribeType, title, price, description}) => {
   return(

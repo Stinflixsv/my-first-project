@@ -3,7 +3,7 @@ import NavigationColumn from "./NavigationColumn/NavigationColumn";
 import {ReactComponent as Facebook} from "../../../assets/icons/facebook.svg";
 import {ReactComponent as Instagram} from "../../../assets/icons/instagram.svg";
 import {ReactComponent as Twitter} from "../../../assets/icons/twitter.svg";
-import Text from "../../Fonts/Text/Text";
+import {Text} from "../../Fonts/Text/Text";
 import Container from "../../Layouts/Container/Container";
 import {NavigationColumnContact} from "./NavigationColumnContact/NavigationColumnContact";
 

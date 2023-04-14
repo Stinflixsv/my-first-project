@@ -2,10 +2,12 @@ import styled from './SubscribeCard.module.scss';
 import {Button} from "../../Buttons/Button/Button";
 import Benefits from "./Benefits/Benefits";
 import HeaderSubCard from "./HeaderSubCard/HeaderSubCard";
+import {motion} from "framer-motion";
+import {forwardRef} from "react";
 
-const SubscribeCard = ({data}) => {
+export const SubscribeCard = forwardRef(({data}, ref) => {
     return (
-        <div className={styled.card}>
+        <div className={styled.card} ref={ref}>
             <HeaderSubCard
                 subscribeType={data.subscribeType}
                 title={data.title}
@@ -18,6 +20,6 @@ const SubscribeCard = ({data}) => {
             </div>
         </div>
     )
-}
+})
 
-export default SubscribeCard;
+export const MSubscribeCard = motion(SubscribeCard)

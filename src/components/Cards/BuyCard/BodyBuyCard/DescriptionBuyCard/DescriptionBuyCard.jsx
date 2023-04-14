@@ -2,7 +2,7 @@ import styled from "../BodyBuyCard.module.scss";
 import Caption from "../../../../Fonts/Caption/Caption";
 import {AiFillStar} from "react-icons/ai";
 import {Title} from "../../../../Fonts/Title/Title";
-import Text from "../../../../Fonts/Text/Text";
+import {Text} from "../../../../Fonts/Text/Text";
 
 const DescriptionBuyCard = ({nameCourses, rate, title, text}) => {
   return(

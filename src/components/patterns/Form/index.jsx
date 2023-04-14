@@ -1,7 +1,7 @@
 import styled from './Form.module.scss'
 import Caption from "../../Fonts/Caption/Caption";
 import {Title} from "../../Fonts/Title/Title";
-import Text from "../../Fonts/Text/Text";
+import {Text} from "../../Fonts/Text/Text";
 import Container from "../../Layouts/Container/Container";
 
 export const Form = () => {

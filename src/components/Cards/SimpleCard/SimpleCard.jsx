@@ -1,15 +1,14 @@
 import styled from './SimpleCard.module.scss';
 import {Title} from "../../Fonts/Title/Title";
-import Text from "../../Fonts/Text/Text";
+import {Text} from "../../Fonts/Text/Text";
 import {useState} from "react";
 
-const SimpleCard = ({icon, title, text}) => {
+export const SimpleCard = ({icon, title, text}) => {
     const [isHover, setIsHover] = useState(false);
     const hoverCardClasses = isHover ? styled.cardHover : '';
 
-
     return (
-        <div
+        <article
             className={`${styled.card} ${hoverCardClasses}`}
             onMouseEnter={() => setIsHover(true)}
             onMouseLeave={() => setIsHover(false)}
@@ -18,7 +17,5 @@ const SimpleCard = ({icon, title, text}) => {
             <Title size={16} lineH={24}>{title}</Title>
             <span className={styled.line}></span>
             <Text>{text}</Text>
-        </div>)
+        </article>)
 }
-
-export default SimpleCard;

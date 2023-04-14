@@ -11,6 +11,7 @@ import {Form} from "./components/patterns/Form";
 import {Footer} from "./components/patterns/Footer/Footer";
 
 const App = ({state}) => {
+
     return (
         <div className="wrapper">
             <Header />
@@ -18,7 +19,7 @@ const App = ({state}) => {
                 <Welcome />
                 <Brands />
                 <Packages />
-                <PopularCourses />
+                <PopularCourses/>
                 <BuyCourses cardData={state.buyCardData} />
                 <Subscribe cardData={state.subscribeCardData} />
                 <Reviews />
